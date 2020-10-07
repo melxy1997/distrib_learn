@@ -1,6 +1,6 @@
 import torch
 
-class EDM(nn.Module):
+class EMDLoss(nn.Module):
     r"""The Earth Move Distance from the
     `"The Earth Mover’s distance is the Mallows distance: 
 some insights from statistics. (ICCV 2001)" `_ paper
@@ -17,7 +17,7 @@ some insights from statistics. (ICCV 2001)" `_ paper
     :math:`\frac{2\mathbf{L}}{\lambda_{\max}} - \mathbf{I}`.
     """
     def __init__(self):
-        super(EDM, self).__init__()
+        super(EMDLoss, self).__init__()
 
     def forward(self, p_target: torch.Tensor, p_estimate: torch.Tensor):
         assert p_target.shape == p_estimate.shape
