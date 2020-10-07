@@ -1,6 +1,6 @@
 # Label Distribution Learning
 
-PyTorch implement for tools of Label Distribution Learning
+a PyTorch implementation for functions of Label Distribution Learning
 
 ## Loss Function
 
