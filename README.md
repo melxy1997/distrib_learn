@@ -15,17 +15,15 @@ PyTorch implement for tools of Label Distribution Learning
   Loss=−\frac{1}{N}\sum_{j=1,zj∼Pz}^{N}
   f_θ(g_ω(z_j))\\ω^∗=arg\min_ω(Loss)
   $$
-  
 
-  
 
 ## Evaluation Metric
 
 * [ ] Chebyshev
 
-$$
-Dis(D, \widehat{D})=\max _{i}\left|d_{i}-\widehat{d}_{i}\right|
-$$
+  $$
+  Dis(D, \widehat{D})=\max _{i}\left|d_{i}-\widehat{d}_{i}\right|
+  $$
 
 
 
