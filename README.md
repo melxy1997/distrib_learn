@@ -10,7 +10,7 @@ PyTorch implement for tools of Label Distribution Learning
   $$
   
 
-* [ ] Wasserstein Distance
+* [x] Wasserstein Distance (adapted as Earth Move Distance)
   $$
   Loss=−\frac{1}{N}\sum_{j=1,zj∼Pz}^{N}
   f_θ(g_ω(z_j))\\ω^∗=arg\min_ω(Loss)
@@ -47,3 +47,7 @@ $$
 S i m {1}(D, \widehat{D})=\sum_{i=1}^{c} \min \left(d_{i}, \widehat{d}_{i}\right)
 $$
 
+## Customize Loss Function
+
+* [x] MSE of Entropy
+  It will calculate the MSE of the respective entropies of the two vectors
