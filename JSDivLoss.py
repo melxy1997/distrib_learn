@@ -1,7 +1,7 @@
 import torch
 import torch.nn.functional as F
 
-def JS_div(p_output, q_output, get_softmax=True):
+def JSDivLoss(p_output, q_output, get_softmax=True):
     """
     Function that measures JS divergence between target and output logits:
     example：
